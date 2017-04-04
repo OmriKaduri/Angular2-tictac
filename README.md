@@ -20,7 +20,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 ## Cool features
 
-1. You can extend the size of the Board, by dispatching setSideLength.
+1. You can extend the size of the [Board](https://github.com/OmriKaduri/Angular2-tictac/blob/master/src/app/Board/board.component.ts), by changing it's `sideLength` Input .
 2. That's it. Cool, isn't it? :relieved:
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.1.
