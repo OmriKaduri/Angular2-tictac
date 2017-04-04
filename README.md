@@ -1,27 +1,26 @@
-# TicTacToe
+# Angular 2 implementation of tic-tac-toe game 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.1.
+This project is my experimental playground of [Angular 2](https://angular.io/).
+
+This project is part of my journey to learn Angular 2 and React, and it also has a [sibling](https://github.com/OmriKaduri/Angular2-tictac) project which implements the same tic-tac-toe game exactly at React & Redux.
+
+Currently, it only implements the classic tic-tac-toe game, without any implementation of algorithm for "Play against the computer" mode.
 
 ## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:9000/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
+## Running the tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## The goal for this project are:
+1. Implement a simple minimax algorithm for "Play against the computer" mode.
+2. Add tests.
+3. Make it an [ultimate-tic-tac-toe](http://vikeshkhanna.webfactional.com/ultimate/)! 
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+## Cool features
 
-## Further help
+1. You can extend the size of the Board, by dispatching setSideLength.
+2. That's it. Cool, isn't it? :relieved:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.1.
