@@ -1,6 +1,6 @@
 # Angular 2 implementation of tic-tac-toe game 
 
-This project is my experimental playground of [Angular 2](https://angular.io/).
+This project is my experimental playground of [Angular 2](https://angular.io/). **DEMO** is found [here](https://tic-tac-toe-emxlsggdqu.now.sh/);
 
 This project is part of my journey to learn Angular 2 and React, and it also has a [sibling](https://github.com/OmriKaduri/Angular2-tictac) project which implements the same tic-tac-toe game exactly at React & Redux.
 
